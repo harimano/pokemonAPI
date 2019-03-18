@@ -16,6 +16,7 @@ constructor(private _httpService: HttpService ){
     {
       this.pokeinfo = data;
       console.log(data);
+      console.log(data['name']);
     });
 }
 
